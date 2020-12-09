@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE016FC62581700600D105C7 /* hondacity.png in Resources */ = {isa = PBXBuildFile; fileRef = AE016FC52581700600D105C7 /* hondacity.png */; };
+		AE016FC82581704500D105C7 /* gradBG.png in Resources */ = {isa = PBXBuildFile; fileRef = AE016FC72581704400D105C7 /* gradBG.png */; };
 		AE1FEBDB25802D8500699695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FEBDA25802D8500699695 /* AppDelegate.swift */; };
 		AE1FEBDD25802D8500699695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FEBDC25802D8500699695 /* ViewController.swift */; };
 		AE1FEBE025802D8500699695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1FEBDE25802D8500699695 /* Main.storyboard */; };
@@ -29,11 +31,11 @@
 		AE1FEC1225807E8A00699695 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FEC1125807E8A00699695 /* WeatherViewController.swift */; };
 		AE1FEC152580873500699695 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1FEC142580873500699695 /* CoreLocation.framework */; };
 		AE1FEC172580873C00699695 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1FEC162580873C00699695 /* MapKit.framework */; };
-		AE1FEC1925808E0C00699695 /* gradBG.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1FEC1825808E0C00699695 /* gradBG.png */; };
-		AE1FEC1B258091D300699695 /* hondacity.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1FEC1A258091D300699695 /* hondacity.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE016FC52581700600D105C7 /* hondacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hondacity.png; sourceTree = "<group>"; };
+		AE016FC72581704400D105C7 /* gradBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradBG.png; sourceTree = "<group>"; };
 		AE1FEBD725802D8500699695 /* FinalExamTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalExamTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1FEBDA25802D8500699695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE1FEBDC25802D8500699695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,8 +60,6 @@
 		AE1FEC1125807E8A00699695 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		AE1FEC142580873500699695 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AE1FEC162580873C00699695 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		AE1FEC1825808E0C00699695 /* gradBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gradBG.png; path = ../../../../../Downloads/gradBG.png; sourceTree = "<group>"; };
-		AE1FEC1A258091D300699695 /* hondacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hondacity.png; path = ../../../../../Downloads/hondacity.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 		AE1FEBE92580304200699695 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				AE1FEC1A258091D300699695 /* hondacity.png */,
-				AE1FEC1825808E0C00699695 /* gradBG.png */,
+				AE016FC72581704400D105C7 /* gradBG.png */,
+				AE016FC52581700600D105C7 /* hondacity.png */,
 				AE1FEC04258038EF00699695 /* audia8.png */,
 				AE1FEC03258038EF00699695 /* bmws7.png */,
 				AE1FEBF82580358900699695 /* ahmedabad.jpg */,
@@ -230,10 +230,10 @@
 				AE1FEBED2580305500699695 /* getCar.png in Resources */,
 				AE1FEBF72580357C00699695 /* vancouver.jpg in Resources */,
 				AE1FEBF62580357C00699695 /* nyc.jpg in Resources */,
-				AE1FEC1925808E0C00699695 /* gradBG.png in Resources */,
-				AE1FEC1B258091D300699695 /* hondacity.png in Resources */,
+				AE016FC82581704500D105C7 /* gradBG.png in Resources */,
 				AE1FEC06258038EF00699695 /* bmws7.png in Resources */,
 				AE1FEBF52580357C00699695 /* montreal.jpg in Resources */,
+				AE016FC62581700600D105C7 /* hondacity.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
